@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NewIteneararyView: View {
+struct NewPlaceVieew: View {
     
     @StateObject var iteneararyManager = IteneararyManager()
     
@@ -39,15 +39,13 @@ struct NewIteneararyView: View {
                 
                 DatePicker("Duration", selection: $duration)
                 TextField("$0.00", value: $budget, formatter: numberFormatter)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
                     .keyboardType(.numberPad)
                 TextField("Additional Details", text: $details)
                 
                 
                 Button{
                     
-                    iteneararyManager.Iteneararies.append(Itenearary(locations: location, details: details, budget: budget, transportTicket: <#T##String#>, locationOfStay: <#T##String#>))
-                    
+                                        
                 }label: {
                     Text("Save")
                 }
@@ -59,5 +57,5 @@ struct NewIteneararyView: View {
     }
 }
 #Preview {
-    NewIteneararyView()
+    NewPlaceVieew()
 }
