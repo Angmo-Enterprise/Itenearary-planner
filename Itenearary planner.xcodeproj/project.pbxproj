@@ -13,6 +13,7 @@
 		1ABFE4D62B06F78300D5D306 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFE4D52B06F78300D5D306 /* ContentView.swift */; };
 		1ABFE4D82B06F78400D5D306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABFE4D72B06F78400D5D306 /* Assets.xcassets */; };
 		1ABFE4DC2B06F78400D5D306 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABFE4DB2B06F78400D5D306 /* Preview Assets.xcassets */; };
+		1ACFF6BC2B070D6500D3978E /* NewIteneararyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFF6BB2B070D6500D3978E /* NewIteneararyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1ABFE4D72B06F78400D5D306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ABFE4D92B06F78400D5D306 /* Itenearary_planner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Itenearary_planner.entitlements; sourceTree = "<group>"; };
 		1ABFE4DB2B06F78400D5D306 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ACFF6BB2B070D6500D3978E /* NewIteneararyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIteneararyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		1ABFE4D22B06F78300D5D306 /* Itenearary planner */ = {
 			isa = PBXGroup;
 			children = (
+				1ACFF6BB2B070D6500D3978E /* NewIteneararyView.swift */,
 				1ABFE4D32B06F78300D5D306 /* Itenearary_plannerApp.swift */,
 				1ABFE4D52B06F78300D5D306 /* ContentView.swift */,
 				1A7943672B07052E00B48030 /* HomeView.swift */,
@@ -147,6 +150,7 @@
 			files = (
 				1A7943682B07052E00B48030 /* HomeView.swift in Sources */,
 				1ABFE4D62B06F78300D5D306 /* ContentView.swift in Sources */,
+				1ACFF6BC2B070D6500D3978E /* NewIteneararyView.swift in Sources */,
 				1A79436A2B07053800B48030 /* IteneararyView.swift in Sources */,
 				1ABFE4D42B06F78300D5D306 /* Itenearary_plannerApp.swift in Sources */,
 			);
