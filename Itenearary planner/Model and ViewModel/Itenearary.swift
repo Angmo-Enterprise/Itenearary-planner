@@ -13,11 +13,8 @@ struct Itenearary: Identifiable, Codable {
     
     var startDate = Date()
     var endDate = Date()
-    var locations: [Location]
+    var locations: String
     var details: String
-    
     var budget: Double
-    var transportTicket: String
-    var locationOfStay: String
     
 }
